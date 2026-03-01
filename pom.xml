@@ -36,18 +36,27 @@
     </dependency>
 
     <!-- ✅ Healenium -->
-   <dependency>
+  <dependency>
     <groupId>com.epam.healenium</groupId>
     <artifactId>healenium-web</artifactId>
     <version>3.4.8</version>
     <exclusions>
+        <!-- JUnit 5 -->
         <exclusion>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
         </exclusion>
+
+        <!-- JUnit Platform -->
         <exclusion>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-launcher</artifactId>
+        </exclusion>
+
+        <!-- ❗ YE MISS HO RAHA THA -->
+        <exclusion>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
         </exclusion>
     </exclusions>
 </dependency>
