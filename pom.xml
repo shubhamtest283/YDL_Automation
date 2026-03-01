@@ -74,28 +74,20 @@
   </dependencies>
 
   <!-- ✅ Surefire Plugin for TestNG -->
- <build>
-  <plugins>
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-surefire-plugin</artifactId>
-      <version>3.2.2</version>
-
-      <configuration>
-        <!-- 🔥 Force TestNG -->
-        <providers>
-          <provider>
-            <name>testng</name>
-          </provider>
-        </providers>
-
-        <!-- 🔥 TestNG suite -->
-        <suiteXmlFiles>
-          <suiteXmlFile>testng.xml</suiteXmlFile>
-        </suiteXmlFiles>
-      </configuration>
-    </plugin>
-  </plugins>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.2.2</version>
+            <configuration>
+                <suiteXmlFiles>
+                    <suiteXmlFile>testng.xml</suiteXmlFile>
+                </suiteXmlFiles>
+                <testNGArtifactName>org.testng:testng</testNGArtifactName>
+            </configuration>
+        </plugin>
+    </plugins>
 </build>
 
 </project>
