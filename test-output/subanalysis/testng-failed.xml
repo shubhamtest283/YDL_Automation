@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [subanalysis]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="subanalysisTest(failed)">
+    <classes>
+      <class name="ydl_test.Subscription_Analysis">
+        <methods>
+          <include name="app"/>
+        </methods>
+      </class> <!-- ydl_test.Subscription_Analysis -->
+    </classes>
+  </test> <!-- subanalysisTest(failed) -->
+</suite> <!-- Failed suite [subanalysis] -->

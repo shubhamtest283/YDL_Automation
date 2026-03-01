@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-01T14:15:47 IST" name="Suite" finished-at="2026-03-01T14:15:56 IST" duration-ms="8814">
+    <groups>
+    </groups>
+    <test started-at="2026-03-01T14:15:47 IST" name="Test" finished-at="2026-03-01T14:15:56 IST" duration-ms="8814">
+      <class name="members_data.membersdata2">
+        <test-method is-config="true" signature="launchbrowsers()[pri:0, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:47 IST" name="launchbrowsers" finished-at="2026-03-01T14:15:53 IST" duration-ms="5387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowsers -->
+        <test-method signature="clientrep()[pri:0, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:53 IST" name="clientrep" finished-at="2026-03-01T14:15:53 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clientrep -->
+        <test-method signature="mobilevalidation3(java.lang.String,boolean)[pri:0, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:53 IST" name="mobilevalidation3" data-provider="memberdata" finished-at="2026-03-01T14:15:53 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9876541245]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilevalidation3 -->
+        <test-method signature="mobilevalidation3(java.lang.String,boolean)[pri:0, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:53 IST" name="mobilevalidation3" data-provider="memberdata" finished-at="2026-03-01T14:15:53 IST" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilevalidation3 -->
+        <test-method signature="mobilevalidation3(java.lang.String,boolean)[pri:0, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:53 IST" name="mobilevalidation3" data-provider="memberdata" finished-at="2026-03-01T14:15:54 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234901]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilevalidation3 -->
+        <test-method signature="mobilevalidation3(java.lang.String,boolean)[pri:0, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:54 IST" name="mobilevalidation3" data-provider="memberdata" finished-at="2026-03-01T14:15:54 IST" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefghij]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilevalidation3 -->
+        <test-method signature="mobilevalidation3(java.lang.String,boolean)[pri:0, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:54 IST" name="mobilevalidation3" data-provider="memberdata" finished-at="2026-03-01T14:15:54 IST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilevalidation3 -->
+        <test-method signature="mobilevalidation3(java.lang.String,boolean)[pri:0, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:54 IST" name="mobilevalidation3" data-provider="memberdata" finished-at="2026-03-01T14:15:54 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[98765@210]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilevalidation3 -->
+        <test-method signature="mobilevalidation4()[pri:0, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:54 IST" name="mobilevalidation4" finished-at="2026-03-01T14:15:54 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilevalidation4 -->
+        <test-method signature="gender()[pri:0, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:54 IST" name="gender" finished-at="2026-03-01T14:15:54 IST" depends-on-methods="members_data.membersdata2.mobilevalidation4" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gender -->
+        <test-method signature="firstnamevalidation()[pri:1, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:54 IST" name="firstnamevalidation" finished-at="2026-03-01T14:15:55 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstnamevalidation -->
+        <test-method signature="lastnamevalidation()[pri:2, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:55 IST" name="lastnamevalidation" finished-at="2026-03-01T14:15:55 IST" duration-ms="917" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[BUG: Last Name field is NOT mandatory but it SHOULD be mandatory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: BUG: Last Name field is NOT mandatory but it SHOULD be mandatory
+at org.testng.Assert.fail(Assert.java:111)
+at members_data.membersdata2.checkMandatoryField(membersdata2.java:95)
+at members_data.membersdata2.lastnamevalidation(membersdata2.java:148)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastnamevalidation -->
+        <test-method signature="mobilenumber()[pri:3, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:56 IST" name="mobilenumber" finished-at="2026-03-01T14:15:56 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilenumber -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:members_data.membersdata2@2e55dd0c]" started-at="2026-03-01T14:15:56 IST" name="quit" finished-at="2026-03-01T14:15:56 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- members_data.membersdata2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
