@@ -98,14 +98,9 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.2.2</version>
-            <configuration>
-                <providers>
-                    <provider>
-                        <name>testng</name>
-                    </provider>
-                </providers>
+            <version>2.22.2</version>  <!-- downgrade -->
 
+            <configuration>
                 <suiteXmlFiles>
                     <suiteXmlFile>testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
